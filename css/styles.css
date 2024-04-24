@@ -97,7 +97,7 @@
     /* color-1(#F9A828)
      * color-2(#07617D)
      */
-    --color-1: #06ff00;
+    --color-1: #01bef8;
     --color-2: hsla(194, 89%, 26%, 1);
 
     /* theme color variations
@@ -2673,6 +2673,38 @@ button.btn--pill {
     border-radius: 1000px !important;
 }
 
+
+
+/* special t shirt booking */
+
+.button-container {
+    margin-top: 20px; /* Adjust the top margin as needed */
+    text-align: center; /* Center-align the button */
+}
+
+/* CSS for button styling */
+.book-now-button {
+    
+}
+
+/* Hover effect */
+.book-now-button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+    border-color: #45a049; /* Darker green border color on hover */
+    color: #fff; /* White text color on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+}
+
+/* special t shirt booking 
+
+
+
+
+
+
+
+
+
 /* ===================================================================
  * # TABLE
  *
@@ -3674,7 +3706,7 @@ img.u-pull-left {
 /* --------------------------------------------------------------------
  * ## intro background
  * -------------------------------------------------------------------- */
-.s-intro__bg {
+ .s-intro__bg {
     display: block;
     position: absolute;
     top: 0;
@@ -3683,9 +3715,9 @@ img.u-pull-left {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: #01201a;
+    background: url('bg.gif') no-repeat center center fixed;
+    background-size: cover;
 }
-
 .s-intro__bg::before {
     display: block;
     content: '';
